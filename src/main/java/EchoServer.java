@@ -20,8 +20,8 @@ public class EchoServer {
                     " <port>");
             return;
         }
-        int port = Integer.parseInt(args[0]);        //1
-        new EchoServer(port).start();                //2
+        int port = Integer.parseInt(args[0]);
+        new EchoServer(port).start();
     }
 
     public void start() throws Exception{
